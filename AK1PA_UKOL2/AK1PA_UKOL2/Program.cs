@@ -8,7 +8,9 @@ namespace AK1PA_UKOL2
         {
             int[] pole = new int[] { 1, 9, 4, 5, 6, 9, 2 };
 
-            // vypiste na konzoli hodnotu prvniho prvku
+            // TODO:vypiste na konzoli hodnotu prvniho prvku
+
+            Console.WriteLine(pole[0]);
 
             // vypiste na konzoli hodnotu posledniho prvku
 
