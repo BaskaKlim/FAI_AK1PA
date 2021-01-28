@@ -12,8 +12,9 @@ namespace AK1PA_UKOL2
 
             Console.WriteLine(pole[0]);
 
-            // vypiste na konzoli hodnotu posledniho prvku
+            // TODO: vypiste na konzoli hodnotu posledniho prvku
 
+            Console.WriteLine(pole[pole.Length-1]);
             // najdete a vypiste hodnotu nejvyssiho prvku v poli
 
             // najdete a vypiste sumu (soucet vsech) prvku v poli
