@@ -6,7 +6,7 @@ namespace AK1PA_UKOL4
     {
         static void Main(string[] args)
         {
-            int[] pole = new int[] { 1, 5, 7,10, 9, 11, 12, 15 };
+            int[] pole = new int[] { 1, 5, 7, 9, 8, 12, 11, 15 };
             int prvek = 3;
             int prvek2 = 10;
             int prvek3 = 1;
@@ -21,33 +21,41 @@ namespace AK1PA_UKOL4
             // pokud vlozite prvek s hodnotou 10, tak vysledne pole bude mit hodnotu  1, 5, 7, 9, 10, 11, 12
             // pokud vlozite prvek s hodnotou  1, tak vysledne pole bude mit hodnotu  1, 1, 5, 7,  9, 11, 12
 
+
+            //pomocne miesto v pamati
+
             int temp = 0;
-          
 
-            for (int i = 0; i < pole.Length; i++)
+            /* pole[0] teda 1.prvok budem pokladat za zatriedeny, a zbytok pola za nezatriedeny.
+             zacnem preto od 2.prvku teda na indexe pole[1]
+            */
+
+            for (int i = 1; i < pole.Length - 1; i++)
             {
-                //ulozim si prve cislo z pola
-                temp = pole[i];
-               int j = i - 1; ;//samotne porovnavanie resp vkladanie robim presne i -1 krat
 
-                // potrebujem porovnat nielen aktualnu hodnotu pole[i] ale aj hodnotu prednou i-1 a vsetky az po index 0
-                // pokym je j> alebo = 0, cize pokial existuju predchadzajuce hodnoty v poli a zaroven hodnota co porovnavam je vacsia ako hodnota co som si ulozil
-                while ((j >= 0) && (pole[j] > temp))
+                //2.prvok si ukladam do pomocnej pamati 
+                temp = pole[i];
+
+                /* tento prvok porovnavam so zatriedenou castou a posuvam ho do lava dovtedz, kym nie som na zaciatku pola cize na 
+                 * indexe 0, alebo kym aktualny prvok nie je vacsi ako lavy prvok
+                 */
+
+                while ((i >= 0) && (temp < pole[i - 1]))
                 {
-                    //prehod hodnoty
-                    pole[j + 1] = pole[j];
-                    j--; // a takto aj pre hodnoti spatne
+                    //prehodim hodnoty
+                    pole[i] = pole[i - 1]; //na sucasnu poziciu ide o jedno cislo skor v poly {vacsie}
+                    pole[i - 1] = temp; //na predchadzajuci index ide sucasna hodnota ulozena v medzipamati
+                    i--; // a posiniem sa na dalsi index v lavo a zopakujem while cyklus kym sedia podmienky
                 }
 
-                pole[j + 1] = temp;
-                
+
             }
             // vypisanie
             for (int k = 0; k < pole.Length; k++)
             {
                 Console.Write($"{pole[k]},");
-            }    
-        
+            }
+
 
         }
     }

@@ -1,0 +1,12 @@
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/obj/Debug/netcoreapp3.1/AK1PA_UKOL4.csprojAssemblyReference.cache
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/obj/Debug/netcoreapp3.1/AK1PA_UKOL4.AssemblyInfoInputs.cache
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/obj/Debug/netcoreapp3.1/AK1PA_UKOL4.AssemblyInfo.cs
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/obj/Debug/netcoreapp3.1/AK1PA_UKOL4.csproj.CoreCompileInputs.cache
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/bin/Debug/netcoreapp3.1/AK1PA_UKOL4.deps.json
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/bin/Debug/netcoreapp3.1/AK1PA_UKOL4.runtimeconfig.json
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/bin/Debug/netcoreapp3.1/AK1PA_UKOL4.runtimeconfig.dev.json
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/bin/Debug/netcoreapp3.1/AK1PA_UKOL4.dll
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/bin/Debug/netcoreapp3.1/AK1PA_UKOL4.pdb
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/obj/Debug/netcoreapp3.1/AK1PA_UKOL4.dll
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/obj/Debug/netcoreapp3.1/AK1PA_UKOL4.pdb
+/Users/barbara/Documents/fai/AK1PA_2020/AK1PA_UKOL4/AK1PA_UKOL4/obj/Debug/netcoreapp3.1/AK1PA_UKOL4.genruntimeconfig.cache
