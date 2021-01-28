@@ -30,6 +30,14 @@ namespace AK1PA_UKOL2
 
 
             // najdete a vypiste sumu (soucet vsech) prvku v poli
+            int sum = 0;
+
+            for(int i=0; i < pole.Length; i++)
+            {
+                sum += pole[i];
+
+            }
+            Console.WriteLine(sum);
 
         }
     }
